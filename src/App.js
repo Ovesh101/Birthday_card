@@ -10,7 +10,7 @@ function App() {
       <h3>{people.length}  Birthdays Today </h3>
       <List  people = {people}/>
       <button  onClick={() => setPeople([])}> Clear All</button>
-      <button  onClick={() => setPeople(data)}> Add All</button>
+    
 
 
       </section>
